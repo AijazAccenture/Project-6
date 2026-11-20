@@ -30,3 +30,4 @@ Note: `terraform apply` was intentionally not run, so no AWS resources were crea
 | Version | Change |
 |---|---|
 | v1 | Basic S3 bucket with Name and Environment tags |
+| v2 | Enabled S3 bucket versioning, added Owner and ManagedBy tags, added bucket ARN and versioning status outputs |
