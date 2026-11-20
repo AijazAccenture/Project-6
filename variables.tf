@@ -15,3 +15,9 @@ variable "environment" {
   type        = string
   default     = "dev"
 }
+
+variable "owner" {
+  description = "Owner of the resources, used in tags"
+  type        = string
+  default     = "AijazAccenture"
+}
